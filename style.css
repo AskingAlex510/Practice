@@ -1,0 +1,23 @@
+input:focus {
+    background-color: blue;
+}
+th {
+    font-weight: bold;
+    align-content: center;
+}
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+p {
+    color: red;
+}
+
+@media only screen and (max-width: 767px) {
+    .ext{
+        display: none;
+    }
+}

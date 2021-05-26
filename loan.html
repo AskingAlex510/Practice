@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="loan">
+        <label for="amount">Enter the desired loan amount: (Min: 1,000,000 Max: 1,000,000,000)</label>
+        <p id="e1"></p>
+        <input type="number" id="amount" name="amount" oninput="validateForm()"><br>
+        <label for="duration">Enter the desired duration of the loan: (Min: 12 Max: 120)</label>
+        <p id="e2"></p>
+        <input type="number" id="duration" name="duration"oninput="validateForm()"><br>
+        <label for="rate">Enter the desired interest rate: (Min: 3 Max: 30)</label>
+        <p id="e3"></p>
+        <input type="number" id="rate" name="rate" oninput="validateForm()"><br>
+    </form>
+    <button onclick="validateForm()">Submit</button>
+    <table>
+        <th>Amount</th>
+        <th>Duration</th>
+        <th>Interest Rate</th>
+        <tr>
+            <td>
+                SUM
+            </td>
+            <td>
+                TIMEFRAME
+            </td>
+            <td>
+                PERCENT
+            </td>
+        </tr>
+        <tr  class="ext">
+            <td>
+                SUM
+            </td>
+            <td>
+                TIMEFRAME
+            </td>
+            <td>
+                PERCENT
+            </td>
+        </tr>
+        <tr  class="ext">
+            <td>
+                SUM
+            </td>
+            <td>
+                TIMEFRAME
+            </td>
+            <td>
+                PERCENT
+            </td>
+        </tr>
+        <tr class="ext">
+            <td>
+                SUM
+            </td>
+            <td>
+                TIMEFRAME
+            </td>
+            <td>
+                PERCENT
+            </td>
+        </tr>
+        <tr>
+            <td>
+                SUM
+            </td>
+            <td>
+                TIMEFRAME
+            </td>
+            <td>
+                PERCENT
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
